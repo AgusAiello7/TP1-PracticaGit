@@ -8,7 +8,9 @@ const fortuneShellEl = document.querySelector('.fortune-shell');
 const rainLayerEl = document.getElementById('rainLayer');
 const rejectStampEl = document.getElementById('rejectStamp');
 const defaultButtonLabel = nextPhraseBtn.textContent;
-
+document.getElementById("desbloquearBtn").addEventListener("click", () => {
+window.location.href = "fotopibes.html";
+});
 const NAAS_ENDPOINT = 'https://naas.isalman.dev/no';
 const CHIP_LABELS = ['NO', 'NOP', 'NEGADO'];
 
